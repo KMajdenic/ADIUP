@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+h1, h2
+{
+    text-align: center;
+}
+body
+{
+    text-align: center;
+    background-color: rgb(164, 209, 248);
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+@keyframes fadeInAnimation {
+        from {
+            opacity: 0;
+            transform: translateY(100%);
+        }
+        to {
+            opacity: 1;
+         }
+    }
+form
+{
+    display: inline-block;
+    font-size: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+input 
+{
+    width: 100%;
+    margin: 5px 0;
+    border: 3px solid #ccc;
+    transition: 1s;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px;
+}
+input:focus
+{
+    border: 2px solid blue;
+}
+
+input[type="submit"]:hover
+{
+    border: 2px solid blue;
+    transition-duration: 0.3s;
+}
+
+table,td,th
+{
+    margin-top: 50px;
+    border-collapse: collapse;
+    border:2px solid black ;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5e9ffa;  
+}
+
+th
+{
+    font-size: 20px;
+}

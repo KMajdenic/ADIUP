@@ -1,0 +1,46 @@
+.footer 
+{
+    background-color: black;
+    width: 100%;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    font-size: 20px;
+    padding: 14px ;
+    text-align: left;
+}
+.flexbox
+{
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.logo
+{
+    border-radius: 20px;
+}
+.wrapper {
+    background-color: black;
+    overflow: hidden;
+    color: white;
+}
+.wrapper a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.wrapper a:hover {
+  background-color: rgb(255, 79, 79);
+  transition-duration: 0.3s;
+  color: white;
+}
+
+.wrapRight {
+  float: right;
+}
+
